@@ -1,0 +1,65 @@
+whoami    	------we get current user(limited permissions)
+sudo su -		--change from guest to root user
+yum install <package name>   ------used to install packages like apache,httpd need root
+date  		-- to check date
+df -h		-- to check storage space left in MB format
+w 		-- to check RAM/load of system (avg load: should be <1)
+free -h 	-- to check RAM left
+uname 		-- to check which os
+pwd 		-- to check present working directory
+ls		-- list files in directory
+ls -a 		-- to check normal+hidden files in directory(resented with .filename)
+ls -altr  	-- complete detailed list with which premissions it has
+mkdir		-- to create folder
+cd..		-- back folder
+vi filename 	-- to create a file (press i -- to enter insert mode -- enter text .next 		   press ESC then enter :wq) 
+cat filename 	-- used to display the data present in the file
+rm -rf fdirname	-- to remove direcotry
+rm filenaeem 	-- to remove fillename
+ip addr		-- to check ip address 
+curl ifconfig.co -- to check our public address
+cp filename destfilename -- to copy file
+mv source dest 	-- to move files
+yum list | grep httpd   -- search in the list
+wget url        -- to download packages through url
+ps -ef          -- provides details of prrocesses in full format
+ps -ef | grep "name"    --- filter the processes by name or number
+
+ date | echo  "this"      ---o/p==this because date system default it sends o/p to std.in , so pipe cant forward first o/p to second
+
+grep command gives the o/p as entire sentence  but   awk command is very poweful it can you o/p as of specify column number
+
+file name is test : my name is sai
+grep name test | awk -F" " '{print $4}' 
+
+
+set -e       ----- exit script when error occur(but wont work when command has | symbol, only checks coorectness of last command in pipe)
+
+set -o  pipefail     ----- checks the every pipe fail
+set -x -----debug mode means shows o/p as cmd with x + o/p
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
