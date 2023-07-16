@@ -12,4 +12,4 @@ Here are some examples of top companies that use S3 event triggering:
 **Expedia**: They use S3 event triggering to automatically process and analyze data stored in Amazon S3, such as travel bookings, user profiles, and pricing information, to power their personalized travel recommendations and search features.
 
 
-![232058778-a7299e9b-9892-471c-a05d-14d773b5b333](https://github.com/shaiksaiteja/shell_scripting/assets/109669265/d985588a-4b38-4e26-8a09-d1b35ecc14af)
+![232058778-a7299e9b-9892-471c-a05d-14d773b5b333](https://github.com/shaiksaiteja/shell_scripting/assets/109669265/a57026c9-ac29-4505-87ea-f67aa09a429e)
